@@ -5,10 +5,10 @@ import { Order } from '../src/interfaces/order';
 import { Product } from '../src/interfaces/product';
 import { Promotion } from '../src/interfaces/promotion';
 import { ShippingZone } from '../src/interfaces/shippingZone';
-import { CustomerParser } from '../src/parsing/customer_parser';
-import { OrderParser } from '../src/parsing/order_parser';
-import { ProductParser } from '../src/parsing/product_parser';
-import { PromotionParser } from '../src/parsing/promotion_parser';
+import { CustomerParser } from '../src/parsing/customerParser';
+import { OrderParser } from '../src/parsing/orderParser';
+import { ProductParser } from '../src/parsing/productParser';
+import { PromotionParser } from '../src/parsing/promotionParser';
 import { ShippingZoneParser } from '../src/parsing/shippingParser';
 
 test("parsing customer.csv", async () => {
