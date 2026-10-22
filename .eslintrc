@@ -1,0 +1,8 @@
+{
+    "rules": {
+      "max-lines-per-function": ["error", 20],
+      "max-params": ["error", 3],
+      "complexity": ["error", 5],
+      "@typescript-eslint/no-explicit-any": "error"
+    }
+}
